@@ -16,7 +16,7 @@ $result=select("SELECT DISTINCT category FROM items" );
     
 
     <!-- Title -->
-    <title>Category</title>
+    <title>KASA</title>
 
     <!-- Core Stylesheet -->
     <link href="style.css" rel="stylesheet">

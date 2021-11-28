@@ -17,10 +17,7 @@ if(isset($_REQUEST['onsearch']))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
-    <title>Dorne - Directory &amp; Listing Template | Listing</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <title>KASA</title>
 
     <!-- Core Stylesheet -->
     <link href="style.css" rel="stylesheet">

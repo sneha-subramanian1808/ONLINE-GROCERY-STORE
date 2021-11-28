@@ -49,6 +49,5 @@ if(isset($_SESSION['name']))
 </div>
 <?php include"side_bar.php";?>
 </div>
-<?php include"footer_script.php";?>
 </body>
 </html>

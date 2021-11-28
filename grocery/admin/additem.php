@@ -103,7 +103,6 @@ else
 </div>
 <?php include"side_bar.php";?>
 </div>
-<?php include"footer_script.php";?>
 <!--<script>
 
 $(document).ready(function(){

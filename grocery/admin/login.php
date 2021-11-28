@@ -62,7 +62,7 @@ if(isset($_SESSION['login']))
 </div>
 </div>
 </div>
-<?php include"footer_script.php";?>
+
 <script>
 
 $(document).ready(function(){

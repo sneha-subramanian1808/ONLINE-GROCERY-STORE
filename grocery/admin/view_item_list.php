@@ -185,7 +185,6 @@ table.dataTable thead .sorting_desc_disabled:after {
 </div>
 <?php include"side_bar.php";?>
 </div>
-<?php include"footer_script.php";?>
 
 </body>
 </html>
