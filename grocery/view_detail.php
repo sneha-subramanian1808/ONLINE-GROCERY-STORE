@@ -44,53 +44,53 @@ $result=select("select * from items where itemid='".$_REQUEST['id']."'")
     </div>
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header_area" id="header">
+    <header style="background-color: #014E51" class="header_area" id="header">
         <div class="container-fluid h-100">
             <div class="row h-100">
                 <div class="col-12 h-100">
                     <nav class="h-100 navbar navbar-expand-lg">
-					 <a class="navbar-brand" href="index.php">ONLINE GROCERY SHOPPING</a>
+                        <a href="index.php" class="outline">KASA</a>
                        
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
                         <!-- Nav -->
                         <div class="collapse navbar-collapse" id="dorneNav">
                             <ul class="navbar-nav mr-auto" id="dorneMenu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.php"> <span class="sr-only">(current)</span></a>
-                                </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="mycart.php"></a>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.php"><span class="sr-only">(current)</span></a>
                                 </li>
                                 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="logout.php"></a>
-                                </li>
                             </ul>
-                            
-                           
-						       <div class="dorne-signin-btn">
-							   <?php
-							   if(isset($_SESSION['login']))
-							   {
-								   ?><a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                             <div class="dorne-signin-btn">
+                               <?php
+                               if(isset($_SESSION['login']))
+                               {
+                                   ?><a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                               
-								<a class="nav-link" href="mycart.php">My Cart</a>
-								<a class="nav-link" href="mycart.php">Category</a>
+                                <a class="nav-link" href="faq.php">FAQ</a>
+                                <a class="nav-link" href="about.php">About Us</a>
+                                <a class="nav-link" href="mycart.php">My Cart</a>
+                                <a class="nav-link" href="category.php">Category</a>
                               
-                                	<a class="nav-link" href="logout.php">Logout</a>
-								   
-								   <?php
-							   }
-								   else
-								   {
-									   ?>
-									   <a href="ragister.php">Sign in  or Register</a>
-								<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-								
-								   <?php
-								   }
-							   
-							   ?>
+                                    <a class="nav-link" href="logout.php">Logout</a>
+                                    
+                                    
+                               
+                                   
+                                   <?php
+                               }
+                                   else
+                                   {
+                                       ?>
+                                       <a href="ragister.php">Sign in or Register</a>
+                                       <a class="nav-link" href="faq.php">FAQ</a>
+                                <a class="nav-link" href="about.php">About Us</a>
+                                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="category.php">Category</a>
+                              
+                                   <?php
+                                   }
+                               
+                               ?>
                                 
                             </div>
                            

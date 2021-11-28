@@ -77,8 +77,8 @@ $('.navbar-light .dmenu').hover(function () {
                                {
                                    ?><a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                               
-                                <a class="nav-link" href="faq.html">FAQ</a>
-                                <a class="nav-link" href="about.html">About Us</a>
+                                <a class="nav-link" href="faq.php">FAQ</a>
+                                <a class="nav-link" href="about.php">About Us</a>
                                 <a class="nav-link" href="mycart.php">My Cart</a>
                                 <a class="nav-link" href="category.php">Category</a>
                               
@@ -93,7 +93,7 @@ $('.navbar-light .dmenu').hover(function () {
                                    {
                                        ?>
                                        <a href="ragister.php">Sign in or Register</a>
-                                       <a class="nav-link" href="faq.html">FAQ</a>
+                                       <a class="nav-link" href="faq.php">FAQ</a>
                                 <a class="nav-link" href="about.php">About Us</a>
                                 <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                 <a class="nav-link" href="category.php">Category</a>

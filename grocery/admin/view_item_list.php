@@ -103,7 +103,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 <div class="outter-wp">
 <div class="sub-heard-part">
 <ol class="breadcrumb m-b-0">
-<li><a href="index.html">Home</a></li>
+<li><a href="index.php">Home</a></li>
 <li class="active">My Grocery</li>
 </ol>
 </div>
@@ -128,7 +128,7 @@ table.dataTable thead .sorting_desc_disabled:after {
       </th>
 	  <th class="th-sm">price
       </th>
-       <th class="th-sm">discription
+       <th class="th-sm">description
       </th>
 	  <th class="th-sm">Operation
       </th>
@@ -151,9 +151,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	  <td><?=$price?>  $</td>
       <td><?=ucwords($discription)?></td>
       <td>
-         <a href="myphp.php?edit=yes&id=<?=$itemid?>">
-          <span class="glyphicon glyphicon-pencil"></span>
-        </a>&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
      <a href="myphp.php?delete=yes&id=<?=$itemid?>">
           <span class="glyphicon glyphicon-remove"></span>
         </a>
@@ -182,7 +180,6 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 </div>
 </div>
-<?php include"footer.php";?>
 
 </div>
 </div>

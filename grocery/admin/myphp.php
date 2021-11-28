@@ -300,7 +300,7 @@ else
 	if(@$_REQUEST['edit']=='yes')
 {
 	$bookid=$_REQUEST['id'];
-	header("location:edit_.php?id=$bookid");
+	header("location:edit_book.php?id=$bookid");
 }
 ###################################################	
 if(isset($_REQUEST['Update_book']))

@@ -20,8 +20,8 @@ else
 <div class="outter-wp">
 <div class="sub-heard-part">
 <ol class="breadcrumb m-b-0">
-<li><a href="index.html">Home</a></li>
-<li class="active">Blank Page</li>
+<li><a href="index.php">Home</a></li>
+<li class="active">Welcome Page</li>
 </ol>
 </div>
 <div class="graph-visual tables-main">
@@ -45,7 +45,6 @@ if(isset($_SESSION['name']))
 
 </div>
 </div>
-<?php include"footer.php"?>
 </div>
 </div>
 <?php include"side_bar.php";?>

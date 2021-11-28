@@ -17,12 +17,12 @@ if(isset($_SESSION['login']))
 <div class="outter-wp">
 <div class="sub-heard-part">
 <ol class="breadcrumb m-b-0">
-<li><a href="index.html">Home</a></li>
-<li class="active">Blank Page</li>
+<li><a href="#">Home</a></li>
+<li class="active">Login Page</li>
 </ol>
 </div>
 <div class="graph-visual tables-main">
-<h2 class="inner-tittle">login</h2>
+<h2 class="inner-tittle">Administration</h2>
 <div class="graph">
 <div class="block-page">
 <p>
@@ -57,11 +57,10 @@ if(isset($_SESSION['login']))
 
 </div>
 </div>
-<?php include"footer.php";?>
+
 
 </div>
 </div>
-<?php include"side_bar.php";?>
 </div>
 <?php include"footer_script.php";?>
 <script>

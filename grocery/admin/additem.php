@@ -25,8 +25,8 @@ else
 <div class="outter-wp">
 <div class="sub-heard-part">
 <ol class="breadcrumb m-b-0">
-<li><a href="index.html">Home</a></li>
-<li class="active">add grocery</li>
+<li><a href="index.php">Home</a></li>
+<li class="active">Add grocery</li>
 </ol>
 </div>
 <div class="graph-visual tables-main">
@@ -81,7 +81,7 @@ else
 </div>
 
 <div class="form-group"> 
-<label for="inputEmail3" id="cpassworderror" class="col-sm-2 control-label">Discription</label> 
+<label for="inputEmail3" id="cpassworderror" class="col-sm-2 control-label">Description</label> 
 <div class="col-xs-6">
  <textarea name="discription" class="form-control col-xs-4">
 </textarea>
@@ -98,7 +98,6 @@ else
 
 </div>
 </div>
-<?php include"footer.php";?>
 
 </div>
 </div>
